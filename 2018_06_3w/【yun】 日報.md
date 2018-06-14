@@ -1,5 +1,57 @@
 ﻿## 作業担当 /  作業時間
-10:00~19:00(6月11日)
+10:00~19:00(6月13日)
+## 本日の進捗
+#### Android Studio
+  1. ListView
+    - ListViewは試していなかった為、簡単なListViewを作ってみた。ListViewのGridLayoutの勉強も必要
+  2. REST API
+    - REST APIの資料を読む。Twitterの認証を得て、後の処理をしてくれるAPIだと理解した。
+    - TwitterCore.getInstance().apiClient.searchService.tweetsを利用したが、Call<Search>の形の値が渡されて困っている。
+    - 検索クエリに「filter:images」を入れたらイメージのtweetのみに検索できるようだ。
+
+#### 勤怠システム
+  1. 新規登録機能の修正
+    - 昨日の続きで、新規登録をしたらsessionが変わる問題を解決。既に作られているfirebaseの認証の他に、名前を付けて新しい認証を得て、そこに新しいユーザーの情報を登録する。新しい認証のTokenが変わって、adminのログインは切れない。
+
+#### 本日のスケジュール
+
+|時間  |概要  |詳細  |
+|---|---|---|
+|10:00 ~|  |  |
+|11:00 ~| Android Studio | List View |
+|12:00 ~| Android Studio | REST API |
+|13:00 ~| 休憩 |  |
+|14:00 ~| Android Studio |  |
+|15:00 ~| Android Studio | |
+|16:00 ~| 勤怠システム | 新規登録機能の修正 |
+|17:00 ~| 勤怠システム |  |
+|18:00 ~| 日報 |  |
+
+## 明日の予定
+
+#### 本日のスケジュール
+
+|時間  |概要  |詳細  |
+|---|---|---|
+|10:00 ~| Android Studio | GridLayoutの作成 |
+|11:00 ~| Android Studio |  |
+|12:00 ~| Android Studio |  |
+|13:00 ~| 休憩 |  |
+|14:00 ~| Android Studio | REST APIの工夫 |
+|15:00 ~| Android Studio |  |
+|16:00 ~| Android Studio |  |
+|17:00 ~| Android Studio |  |
+|18:00 ~| 日報 |  |
+
+## 連絡・相談・備考
+
+## 時間外勤務
+0.0 h
+
+<hr/>
+
+## 作業担当 /  作業時間
+10:00~19:00(6月12日)
 ## 本日の進捗
 ##### Android Studio
   1. 昨日の作業の続き
