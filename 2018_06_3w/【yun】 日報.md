@@ -1,4 +1,61 @@
 ﻿## 作業担当 /  作業時間
+10:00~19:00(6月14日)
+## 本日の進捗
+#### Android Studio
+  1. Custom ListView
+    - activity_timeline.xmlをListViewにしてその中にカスタムするレイアウトを入れる方式
+    - images.ktファイルを作ってカスタムレイアウトに入れる引数を定義、imageDataというObjectを作り、imagesのオブジェクトを使って仮にファイル名を入れる。そのあとObjectを利用してAdapterにつなぐ仕組み
+
+  2. Search
+    - homeTimelineを呼び出す形と似ている。Callback<Search>をrequireNoNulls()メソッドを使い、内容を引っ張ってきた。引っ張った値にentities.mediaを利用、イメージのurlのフィルタリングに成功
+
+
+#### 勤怠システム
+  1.個人情報修正画面の修正
+    - 個人情報を修正したら権限が消されるのを修正
+  
+  2. ログイン画面の修正
+    - 今まではエンターキーを押してもページが動かなかった為、修正
+    - ログインボタンのborderをなくす、モバイル画面のボタンの大きさなど、CSSの修正
+
+#### 本日のスケジュール
+
+|時間  |概要  |詳細  |
+|---|---|---|
+|10:00 ~| Android Studio | Custom ListView |
+|11:00 ~| Android Studio |  |
+|12:00 ~| Android Studio | Tweet Search |
+|13:00 ~| 休憩 |  |
+|14:00 ~| Android Studio |  |
+|15:00 ~| Android Studio |  |
+|16:00 ~| 勤怠システム | 個人情報修正画面の修正 |
+|17:00 ~| 勤怠システム |  |
+|18:00 ~| 日報 |  |
+
+## 明日の予定
+
+#### 本日のスケジュール
+
+|時間  |概要  |詳細  |
+|---|---|---|
+|10:00 ~| Android Studio | Urlからイメージを取り出す |
+|11:00 ~| Android Studio |  |
+|12:00 ~| Android Studio |  |
+|13:00 ~| 休憩 |  |
+|14:00 ~| Android Studio |  |
+|15:00 ~| Android Studio |  |
+|16:00 ~| 報告会 |  |
+|17:00 ~| 報告会 |  |
+|18:00 ~| 日報 |  |
+
+## 連絡・相談・備考
+
+## 時間外勤務
+0.0 h
+
+<hr/>
+
+## 作業担当 /  作業時間
 10:00~19:00(6月13日)
 ## 本日の進捗
 #### Android Studio
